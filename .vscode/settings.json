@@ -1,0 +1,13 @@
+{
+    "editor.minimap.enabled": false,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.variables": {
+        "lang": "en"
+    },
+    "emmet.excludeLanguages": [
+    " ()[]{}',\"`─"
+        "markdown"
+    ]
+}
