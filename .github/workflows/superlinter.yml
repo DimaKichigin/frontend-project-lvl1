@@ -1,4 +1,4 @@
-name: superlinter
+name: github actions
 
 on:
   - push
