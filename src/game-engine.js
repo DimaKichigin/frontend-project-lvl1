@@ -18,7 +18,7 @@ export default (rule, getGameData) => {
       showMessage('Correct!');
     } else {
       showMessage(`Sorry, '${answerOfUser}' is wrong answer, correct answer was '${solution}'.`);
-      showMessage(`Lets try again, ${userName}!`);
+      showMessage(`Let's try again, ${userName}!`);
       return;
     }
   }
