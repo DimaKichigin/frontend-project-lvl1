@@ -1,6 +1,8 @@
 import randomNum from '../utils.js';
-import engine from '../game-engine.js';
+import runEngine from '../game-engine.js';
 
+// Задание
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 // Определение четности числа
 const isEven = (num) => num % 2 === 0;
 
@@ -11,11 +13,8 @@ const getGameData = () => {
   return [question, String(result)];
 };
 
-// Задание
-const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
-
 const startEvenGame = () => {
-  engine(rule, getGameData);
+  runEngine(rule, getGameData);
 };
 
 export default () => startEvenGame();

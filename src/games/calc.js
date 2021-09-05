@@ -1,18 +1,19 @@
 import randomNum from '../utils.js';
-import engine from '../game-engine.js';
+import runEngine from '../game-engine.js';
 
+const rule = 'What is the result of the expression?';
 const calculate = (num1, num2, sign) => {
   let correctAnswer;
   switch (sign) {
     case '+': correctAnswer = num1 + num2;
-      break;
+      return correctAnswer;
     case '-': correctAnswer = num1 - num2;
-      break;
+      return correctAnswer;
     case '*': correctAnswer = num1 * num2;
-      break;
-    default: return null;
+      return correctAnswer;
+    default:
+      return null;
   }
-  return correctAnswer;
 };
 const getGameData = () => {
   const signs = ['+', '-', '*'];
@@ -24,10 +25,9 @@ const getGameData = () => {
   const result = calculate(num1, num2, sign);
   return [question, String(result)];
 };
-const rule = 'What is the result of the expression?';
 
 const startCalcGame = () => {
-  engine(rule, getGameData);
+  runEngine(rule, getGameData);
 };
 
 export default () => startCalcGame();

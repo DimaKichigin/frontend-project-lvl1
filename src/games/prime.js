@@ -1,6 +1,7 @@
 import randomNum from '../utils.js';
-import engine from '../game-engine.js';
+import runEngine from '../game-engine.js';
 
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (num) => {
   if (num <= 1) {
     return false;
@@ -19,10 +20,8 @@ const getGameData = () => {
   return [question, String(result)];
 };
 
-const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-
 const startPrimeGame = () => {
-  engine(rule, getGameData);
+  runEngine(rule, getGameData);
 };
 
 export default () => startPrimeGame();
