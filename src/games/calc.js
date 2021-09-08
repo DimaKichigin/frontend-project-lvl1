@@ -4,7 +4,6 @@ import runEngine from '../game-engine.js';
 
 const rule = 'What is the result of the expression?';
 const calculate = (num1, num2, sign) => {
-  // let ;
   switch (sign) {
     case '+':
       return num1 + num2;
