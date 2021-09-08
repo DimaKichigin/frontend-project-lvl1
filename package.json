@@ -11,28 +11,24 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+     "repository": {
     "type": "git",
     "url": "git+https://github.com/DimaKichigin/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "Dima Kichigin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DimaKichigin/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/DimaKichigin/frontend-project-lvl1#readme",
   "dependencies": {
-    "eslint-plugin-jest": "^24.3.7",
-    "readline-sync": "^1.4.10"
+       "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-import": "^2.23.4"
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.7"
   }
 }

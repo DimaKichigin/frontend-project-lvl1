@@ -1,18 +1,19 @@
+/* eslint-disable no-undef */
 import randomNum from '../utils.js';
 import runEngine from '../game-engine.js';
 
 const rule = 'What is the result of the expression?';
 const calculate = (num1, num2, sign) => {
-  let correctAnswer;
+  // let ;
   switch (sign) {
-    case '+': correctAnswer = num1 + num2;
-      return correctAnswer;
-    case '-': correctAnswer = num1 - num2;
-      return correctAnswer;
-    case '*': correctAnswer = num1 * num2;
-      return correctAnswer;
+    case '+':
+      return num1 + num2;
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
     default:
-      return null;
+      throw new Error('Unknown operator');
   }
 };
 const getGameData = () => {
