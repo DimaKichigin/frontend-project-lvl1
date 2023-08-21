@@ -16,7 +16,7 @@ Clone the created project repository locally.
 Install the dependencies (make install)
 Launch the games (commands in the description of the games)
 
-## How to play:
+### How to play:
 
 These are five console games.
 To see the greeting, type the command `make brain-games`
