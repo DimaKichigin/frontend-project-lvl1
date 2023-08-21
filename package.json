@@ -11,7 +11,7 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-     "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/DimaKichigin/frontend-project-lvl1.git"
   },
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/DimaKichigin/frontend-project-lvl1#readme",
   "dependencies": {
-       "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^7.31.0",
