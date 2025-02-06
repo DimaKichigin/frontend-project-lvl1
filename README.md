@@ -16,6 +16,13 @@ Clone the created project repository locally.
 Install the dependencies (make install)
 Launch the games (commands in the description of the games)
 
+### Technologies that were used in the project
+
+- Node.js
+- Lodash
+- Eslint
+- Readline-sync
+
 ### How to play
 
 These are five console games.
